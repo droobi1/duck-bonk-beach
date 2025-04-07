@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duck Bonk Beach</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #87ceeb; }
+    #scoreBoard {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-size: 20px;
+      font-family: sans-serif;
+      background: rgba(0,0,0,0.4);
+      padding: 5px 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <div id="scoreBoard">Score: <span id="scoreValue">0</span></div>
+  <script src="main.js"></script>
+</body>
+</html>
